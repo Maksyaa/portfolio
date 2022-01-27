@@ -1,0 +1,49 @@
+a.portfolio-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.portfolio-item .caption{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+
+.caption-content {
+  color: #fff;
+  margin: auto 2rem 2rem;
+
+ }
+
+.caption-name {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.caption-text {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.text-project {
+  font-size: 3rem;
+}
+
+@media (min-width: 992px) {
+  .portfolio-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+}

@@ -1,0 +1,43 @@
+.content-section {
+  padding-top: 6.5rem;
+  padding-bottom: 7.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-link {
+  text-decoration: none;
+}
+
+.content-bottom {
+  padding: 15rem 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &-text {
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    max-width: 30rem;
+  }
+}
+
+.map iframe {
+  height: 400px;
+  width: 100%;
+  display: block;
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.vangogh-title {
+  color: #fff;
+}
+
+.mb-5 {
+  color: #fff;
+}

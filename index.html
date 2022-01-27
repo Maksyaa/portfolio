@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Museum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-light fixed-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Artists
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                            <li><a class="dropdown-item" href="#">Da Vinci</a></li>
+                            <li><a class="dropdown-item" href="#">Van Gogh</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">All Artists</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- ./navbar-->
+
+<header class="head d-flex align-items-center" style="background-image: url('assets/gallery/levi-meir-clancy-jZaQOzrC3XU-unsplash.jpg')">
+    <div class="container px-4 px-lg-5 text-center">
+        <h1 class="header-title mb-1">Museum Of The City Of <br> New York</h1>
+        <h3 class="header-text mb-5"><em>Welcome to one of the biggest museums in the world</em></h3>
+        <a class="btn btn-primary btn-xl" href="#">Read More</a>
+    </div>
+</header>
+<!--/.header-->
+<section class="content-section" id="about" style="background-image: url('assets/gallery/redd-y3MNRXtUaUs-unsplash.jpg')">
+    <div class="container px-4 px-lg-5 text-center">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-10">
+                <h2 class="vangogh-title">Incredible works of Van Gogh are now with us!</h2>
+                <p class="lead mb-5">
+                    One of the best artists of his generation will give you a lot of emotions! You can book a reservation online:
+                </p>
+                <a class="btn btn-dark btn-xl" href="#services">Book Online</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content-section bg-dark text-white text-center" id="services">
+    <div class="container px-4 px-lg-5">
+        <div class="content-section-heading">
+            <h3 class="text-secondary mb-0">Services</h3>
+            <h2 class="mb-5">What We Offer</h2>
+        </div>
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <span class="service-icon rounded-circle mx-auto mb-3">
+                    <img class="icon-img" src="assets/gallery/art-museum.png" alt="">
+                </span>
+                <h4><strong>Art Objects</strong></h4>
+                <p class="text-faded mb-0">Most wonderful paintings and sculptures in the world</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <span class="service-icon rounded-circle mx-auto mb-3">
+                    <img class="icon-img" src="assets/gallery/tickets.png" alt="">
+                </span>
+                <h4><strong>Tickets</strong></h4>
+                <p class="text-faded mb-0">You can buy tickets inside of the museum or online</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                <span class="service-icon rounded-circle mx-auto mb-3">
+                    <img class="icon-img" src="assets/gallery/museum.png" alt="">
+                </span>
+                <h4><strong>Museum</strong></h4>
+                <p class="text-faded mb-0">One of the biggest museums in the world</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <span class="service-icon rounded-circle mx-auto mb-3">
+                    <img class="icon-img" src="assets/gallery/smartphone.png" alt="">
+                </span>
+                <h4><strong>Devices</strong></h4>
+                <p class="text-faded mb-0">You can use your devices fluently and take pictures</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background-image: url('assets/gallery/zalfa-imani-jLDpYVEYotw-unsplash.jpg')" class="content-bottom">
+    <div class="container px-4 px-lg-5 text-center">
+        <h2 class="content-bottom-text mx-auto mb-5">
+            Find your favourite artists!
+        </h2>
+        <a class="btn btn-primary btn-xl" href="#">Find Out</a>
+    </div>
+</section>
+
+<section class="content-section bg-dark" id="portfolio">
+    <div class="container px-4 px-lg-5">
+        <div class="content-section-heading text-center">
+            <h3 class="text-secondary mb-0">Portfolio</h3>
+            <h2 class="text-project mb-5">Our Gallery</h2>
+        </div>
+        <div class="row gx-0">
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="#!">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <div class="caption-name">Salvadore Dali</div>
+                            <p class="caption-text mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="assets/gallery/salvadore%20dali.jpg" alt="..." />
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="#!">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <div class="caption-name">Da Vinci</div>
+                            <p class="caption-text mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="assets/gallery/monalisa.jpg" alt="..." />
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="#!">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <div class="caption-name">Pablo Picasso</div>
+                            <p class="caption-text mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="assets/gallery/picasso.jpg" alt="..." />
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="#!">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <div class="caption-name">Michelangelo</div>
+                            <p class="caption-text mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="assets/gallery/mich.jpg" alt="..." />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content-section bg-primary text-white" style="background-image: url('assets/gallery/nick-van-den-berg-GVheioPZdpk-unsplash.jpg')">
+    <div class="container px-4 px-lg-5 text-center">
+        <h2 class="mb-4">Do you want to add your paintings?</h2>
+        <a class="btn btn-xl btn-light me-4" href="#!">Suggest Drawing</a>
+    </div>
+</section>
+
+<div class="map" id="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19742.29926451525!2d-73.9618732708165!3d40.79052745123789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f61db458888b%3A0x19a6fb3bfd71dad4!2sMuseum%20of%20the%20City%20of%20New%20York!5e0!3m2!1sru!2slv!4v1643287613849!5m2!1sru!2slv" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Museum</a></li>
+                        <li><a href="#">Art objects</a></li>
+                        <li><a href="#">Promotion</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Company Name</h3>
+                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                </div>
+            </div>
+            <p class="copyright">Designed by Maximilian © 2022</p>
+        </div>
+    </footer>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
